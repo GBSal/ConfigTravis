@@ -1,0 +1,8 @@
+D:\Labs\TravisLabs\ConfigTravis\Website\bin\Debug\netcoreapp1.1\Website.deps.json
+D:\Labs\TravisLabs\ConfigTravis\Website\bin\Debug\netcoreapp1.1\Website.runtimeconfig.json
+D:\Labs\TravisLabs\ConfigTravis\Website\bin\Debug\netcoreapp1.1\Website.runtimeconfig.dev.json
+D:\Labs\TravisLabs\ConfigTravis\Website\bin\Debug\netcoreapp1.1\Website.dll
+D:\Labs\TravisLabs\ConfigTravis\Website\bin\Debug\netcoreapp1.1\Website.pdb
+D:\Labs\TravisLabs\ConfigTravis\Website\obj\Debug\netcoreapp1.1\Website.AssemblyInfo.cs
+D:\Labs\TravisLabs\ConfigTravis\Website\obj\Debug\netcoreapp1.1\Website.dll
+D:\Labs\TravisLabs\ConfigTravis\Website\obj\Debug\netcoreapp1.1\Website.pdb
