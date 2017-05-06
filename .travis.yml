@@ -1,12 +1,12 @@
 language: csharp
 solution: .\website.sln
 dist: trusty 
-sudo: required
+#sudo: required
+install: dotnet restore
 script:
     - xbuild /p:Configuration=Release $TRAVIS_SOLUTION
 matrix:
   include:
     - dotnet: 1.0.1
-      mono: none
-      env: DOTNETCORE=1
-    - mono: latest
+      
+     
