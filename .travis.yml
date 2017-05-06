@@ -1,10 +1,9 @@
 language: csharp
 solution: ./website.sln
 dist: trusty 
-#sudo: required
 install: dotnet restore
 script:
-    dotnet build .\Website.sln -c release
+    dotnet build $TRAVIS_SOLUTION -c release
 matrix:
   include:
     - dotnet: 1.0.1
