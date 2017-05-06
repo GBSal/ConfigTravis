@@ -3,7 +3,7 @@ solution: ./website.sln
 dist: trusty 
 install: dotnet restore
 script:
-    dotnet build /home/travis/build/GBSal/ConfigTravis/Website/Website.csproj -c release
+    dotnet build $TRAVIS_SOLUTION -c release
 matrix:
   include:
     - dotnet: 1.0.1
