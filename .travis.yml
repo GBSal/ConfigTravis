@@ -8,5 +8,9 @@ script:
 matrix:
   include:
     - dotnet: 1.0.1
+      mono: none
+      env: DOTNETCORE=1
+    - mono: latest
+
       
      
