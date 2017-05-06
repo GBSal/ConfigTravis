@@ -5,3 +5,8 @@ mono: none
 dotnet: 1.0.1
 dist: trusty
 solution: .\website.sln
+
+install:
+     - dotnet restore $TRAVIS_SOLUTION
+script:
+     - xbuild /p:Configuration=Release $TRAVIS_SOLUTION
