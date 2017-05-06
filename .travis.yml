@@ -1,9 +1,9 @@
 language: csharp
 solution: ./website/website.sln
 dist: trusty 
-install: dotnet restore $TRAVIS_SOLUTION
+install: dotnet restore ./website/website.sln
 script:
-    dotnet build $TRAVIS_SOLUTION -c release
+    dotnet build ./website/website.sln -c release
 matrix:
   include:
     - dotnet: 1.0.1
