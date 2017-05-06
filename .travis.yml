@@ -1,5 +1,5 @@
 language: csharp
-solution: ./website/website.sln
+solution:  \website\website.sln
 dist: trusty 
 install: dotnet restore $TRAVIS_SOLUTION
 script:
