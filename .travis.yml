@@ -1,9 +1,9 @@
 language: csharp
-solution:  website/website.sln
+solution:  website/website.csproj
 dist: trusty 
-install: dotnet restore website/website.sln
+install: dotnet restore website/website.csproj
 script:
-    dotnet build website/website.sln -c release
+    dotnet build website/website.csproj -c release
 matrix:
   include:
     - dotnet: 1.0.1
