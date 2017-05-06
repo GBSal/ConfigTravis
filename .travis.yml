@@ -2,8 +2,6 @@ language: csharp
 solution: .\website.sln
 dist: trusty 
 sudo: required
-install:
-    - nuget restore $TRAVIS_SOLUTION
 script:
     - xbuild /p:Configuration=Release $TRAVIS_SOLUTION
 matrix:
