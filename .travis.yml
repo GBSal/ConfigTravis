@@ -1,5 +1,5 @@
 language: csharp
-solution: .\website.sln
+solution: ./Website/Website.csproj
 dist: trusty 
 #sudo: required
 install: dotnet restore
