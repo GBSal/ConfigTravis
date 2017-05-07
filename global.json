@@ -1,0 +1,6 @@
+{
+  "projects": [ "website/website.csproj", "website.data/website.data.csproj" ],
+  "sdk": {
+    "version": "1.1.1"
+  }
+}
