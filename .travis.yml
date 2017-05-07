@@ -6,7 +6,7 @@ script:
     dotnet build webiste.sln -c release
 matrix:
   include:
-    - dotnet: 1.0.1
+    - dotnet: 1.1.1
       mono: none
 
 
